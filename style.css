@@ -1,0 +1,156 @@
+* {
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #D0D4D5;
+  position: relative;
+}
+
+#nav {
+  height: 90px;
+  padding: 0 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav img  {
+  height: 50px;
+  margin-right: 170px;
+}
+
+#nav-prt1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-prt1 h4 {
+  margin-right: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#nav-prt2 i {
+  margin-right: 60px;
+ 
+  font-weight: 500;
+  font-size: 23px;
+}
+
+#content {
+  width: 100%;
+  height: calc(100% - 90px);
+  position: relative;
+  display: flex;
+
+}
+#left {
+  width: 35%;
+  height: 100%;
+  padding: 50px 130px;
+
+
+
+}
+
+#left h5 {
+  font-size: 20px;
+  color: #636363;
+  margin-bottom: 30px;
+}
+
+#left h1 {
+  font-size: 65px;
+  text-transform: uppercase;
+  line-height: 68px;
+  margin-bottom: 45px;
+}
+
+#left p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  
+}
+#left button  {
+  color: white ;
+  background-color: black;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-style: none;
+}
+
+.elem {
+  height: 400px;
+  width: 320px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 10px;
+
+}
+
+.elem img {
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  top: 7%;
+}
+
+.elem h4 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #D0D4D5;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+
+.elem h5{
+  bottom: 13%;
+  color: #fff;
+  right: 0;
+  position: absolute;
+  background-color: #000000;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+
+#right::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+#right {
+  width: 65%;
+  height: 100%;
+  
+  position: relative;
+  padding: 120px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
